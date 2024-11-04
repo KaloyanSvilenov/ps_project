@@ -43,7 +43,7 @@ class App(ctk.CTk):
         input_frame.columnconfigure(4, weight=1)
 
         # table frame
-        table_frame = ctk.CTkFrame(self, corner_radius=15, fg_color="#2B2B2B")
+        table_frame = ctk.CTkScrollableFrame(self, corner_radius=15, fg_color="#2B2B2B")
         table_frame.pack(pady=10, padx=20, fill="both", expand=True)
 
         # table label
